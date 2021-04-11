@@ -6,7 +6,7 @@
 #include <Arduino.h>
 #include <FastLED.h>
 
-#define NUM_LEDS_PER_STRIP 24
+#define NUM_LEDS_PER_STRIP 24   //Change
 #define BRIGHTNESS  64
 
 CRGB leds[NUM_LEDS_PER_STRIP];
