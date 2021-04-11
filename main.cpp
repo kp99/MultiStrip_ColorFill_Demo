@@ -1,4 +1,5 @@
 // Example: MirroringSample
+// NodeMCU 1.0 (ESP12E Module), Wemos D1
 // In this example, we're going to set up six NEOPIXEL strips on six different pins,
 // and show the same thing on all six of them.
 
@@ -12,6 +13,7 @@ CRGB leds[NUM_LEDS_PER_STRIP];
 
 
 void setup() {
+  
   FastLED.addLeds<NEOPIXEL, D3>(leds, NUM_LEDS_PER_STRIP);  
   FastLED.addLeds<NEOPIXEL, D4>(leds, NUM_LEDS_PER_STRIP);
   FastLED.addLeds<NEOPIXEL, D5>(leds, NUM_LEDS_PER_STRIP);
